@@ -5,6 +5,8 @@ import {URL} from 'url';
 async function createWindow() {
   const browserWindow = new BrowserWindow({
     show: false, // Use the 'ready-to-show' event to show the instantiated BrowserWindow.
+    vibrancy: 'under-window',
+    visualEffectState: 'active',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
@@ -41,6 +43,8 @@ async function createWindow() {
       : new URL('../renderer/dist/index.html', 'file://' + __dirname).toString();
 
   await browserWindow.loadURL(pageUrl);
+  browserWindow.setBackgroundColor("#4dffffff");
+  browserWindow.setMenu(null);
 
   return browserWindow;
 }
