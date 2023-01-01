@@ -1,27 +1,13 @@
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
 
----
+# Markdown-Editor
 
-# Vite Electron Builder Boilerplate
-
-<a href="https://www.buymeacoffee.com/kozack" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" height="60" alt="Buy Me A Coffee"></a>
+![Markdown UI Screenshot](./sampleMarkdownImage.png)
 
 
 This is a template for secure electron applications. Written following the latest safety requirements, recommendations
 and best practices.
 
 Under the hood is [Vite] — A next-generation blazing fast bundler, and [electron-builder] for packaging.
-
-## Get started
-
-Follow these steps to get started with the template:
-
-1. Click the **[Use this template](https://github.com/cawa-93/vite-electron-builder/generate)** button (you must be
-   logged in) or just clone this repo.
-2. If you want to use another package manager don't forget to edit [`.github/workflows`](/.github/workflows) — [it
-   uses `npm` by default](https://github.com/search?q=npm+repo%3Acawa-93%2Fvite-electron-builder+path%3A.github%2Fworkflows&type=Code&ref=advsearch&l=&l=).
-
-That's all you need. 😉
 
 > **Note**:
 > This template uses npm v7 feature — [**Installing Peer Dependencies
@@ -90,9 +76,6 @@ Vite provides many useful features, such as: `TypeScript`, `TSX/JSX`, `CSS/JSON 
 > **Note**:
 > This template **configured only for GitHub public repository**, but electron-builder also supports other update distribution servers. Find more in [electron-builder docs](https://www.electron.build/configuration/publish).
 
-## How it works
-
-The template requires a minimum amount [dependencies](package.json). Only **Vite** is used for building, nothing more.
 
 ### Project Structure
 
